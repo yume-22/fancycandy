@@ -10,7 +10,8 @@ body {
 }
 
 p,h1,h2,h3,h4,h5,h6 {
-  margin-top: 0;
+  margin-top: 20px;
+  font-family: 'Kiwi Maru', serif;
 }
 
 img{
@@ -58,7 +59,7 @@ header {
   margin: 0 20px;
   font-size: 16px;
   list-style: none;
-  font-family: 'Bitter', serif;
+  font-family: 'Kiwi Maru', serif;
 }
 
 .global-nav li a {
@@ -84,6 +85,7 @@ footer {
   text-align: center;
   color: #ffffff;
   padding: 20px 0;
+  background-color: #767671;
 }
 
 footer small {
@@ -94,8 +96,9 @@ index h1{
   font-size: 100px;
   line-height: 1;
   color: #ffffff;
-  font-family: 'Bitter', serif;
+  font-family: 'Kiwi Maru', serif;
   margin-bottom: 50px;
+  border: none;
 }
 
 #index .content{
@@ -111,7 +114,7 @@ index h1{
   background-color: #ffa500;
   color: #000000;
   font-size: 18px;
-  font-family: 'Bitter',serif;
+  font-family: 'Kiwi Maru', serif;
   width: 150px;
   display: block;
   text-align: center;
@@ -123,7 +126,7 @@ index h1{
 
 .btn a:hover{
   text-decoration: none;
-  background-color: #ffe4b5;
+  background-color: #f9e697;
   color: #000000;
 }
 
@@ -131,6 +134,7 @@ index h1{
   width: 960px;
   margin: 150px auto 0 auto;
   text-align: left;
+  background-color: transparent;
 }
 
 #index{
@@ -141,7 +145,108 @@ index h1{
   background-size: cover;
 }
 
+#about{
+  background-image: url(../images/main.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
 
+#wrap{
+  clear: both;
+  background-color: #f9e697;
+  margin-top: 220px;
+  padding: 35px 0;
+}
+
+.main-center{
+  width: 940px;
+  margin: 0 auto;
+}
+
+h1{
+  font-family: 'Kiwi Maru', serif;
+  font-size: 24px;
+}
+
+.icon::before{
+  content: "";
+  padding-right: 10px;
+  border-left: 7px solid #e4ad6d;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+section{
+  margin-bottom: 35px;
+}
+
+#index #wrap{
+  background-color: transparent;
+  margin-top: 0;
+  padding: 0;
+}
+
+#event{
+  background-image: url(../images/);
+  background-repeat:no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+.main{
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+}
+
+.sidebar{
+  width: 200px;
+  margin: 0 10px 0 30px;
+  float: right;
+  font-family: 'Bitter', serif;
+}
+
+a img:hover{
+  opacity: 0.8;
+}
+
+.sidebar h2{
+  margin-bottom: 10px;
+}
+
+.sidebar ul{
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.sidebar ul a{
+  color: #333333;
+}
+
+#classic{
+  background-image: url(../images/main.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#classic .classic-list li{
+  float: left;
+  list-style: none;
+  margin: 0 30px 15px 0;
+}
+
+#classic .classic-list li:nth-child(3h){
+  margin-right: 0;
+}
 
 @media screen and (max-width:600px){
   /* 画面サイズが600px以下の場合に適用 */
@@ -189,42 +294,11 @@ index h1{
   h2 img{
     max-width: 100%;
   }
-}
-
-#event{
-  background-image: url(../images/);
-  background-repeat:no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
-  background-size: 100% auto;
-}
-
-.main{
-  width: 700px;
-  margin: 0 10px;
-  float: left;
-}
-
-.sidebar{
-  width: 200px;
-  margin: 0 10px 0 30px;
-  float: right;
-  font-family: 'Bitter', serif;
-}
-
-a img:hover{
-  opacity: 0.8;
-}
-
-.sidebar h2{
-  margin-bottom: 10px;
-}
-
-.sidebar ul{
-  font-size: 16px;
-  margin-left: 20px;
-}
-
-.sidebar ul a{
-  color: #333333;
+  .sidebar{
+    width: auto;
+    float: none;
+    margin: 0;
+    padding: 30px 10% 10px;
+    background-color: #f7f6f4;
+  }
 }
