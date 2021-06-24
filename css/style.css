@@ -3,7 +3,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #fffaf0;
+  background-color: #ffffe0;
   color: #333333;
   font-size: 15px;
   line-height: 2;
@@ -95,7 +95,7 @@ footer small {
 index h1{
   font-size: 100px;
   line-height: 1;
-  color: #ffffff;
+  color: #000000;
   font-family: 'Kiwi Maru', serif;
   margin-bottom: 50px;
   border: none;
@@ -107,7 +107,7 @@ index h1{
 
 #index p{
   font-size: 16px;
-  color: #ffffff;
+  color: #000000;
 }
 
 .btn a{
@@ -146,7 +146,7 @@ index h1{
 }
 
 #about{
-  background-image: url(../images/main.png);
+  background-image: url(../images/sub.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -155,7 +155,7 @@ index h1{
 
 #wrap{
   clear: both;
-  background-color: #f9e697;
+  background-color: #ffffe0;
   margin-top: 220px;
   padding: 35px 0;
 }
@@ -192,8 +192,16 @@ section{
   padding: 0;
 }
 
+#product{
+  background-image: url(../images/sub.png);
+  background-repeat:no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
 #event{
-  background-image: url(../images/);
+  background-image: url(../images/sub.png);
   background-repeat:no-repeat;
   background-position: center top;
   background-attachment: fixed;
@@ -231,7 +239,7 @@ a img:hover{
 }
 
 #classic{
-  background-image: url(../images/main.png);
+  background-image: url(../images/sub.png);
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
