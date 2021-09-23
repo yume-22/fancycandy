@@ -130,6 +130,46 @@ index h1{
   color: #000000;
 }
 
+.btn2 a{
+  background-color: #ffa500;
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Kiwi Maru', serif;
+  width: 170px;
+  display: block;
+  text-align: center;
+  line-height: 10px;
+  margin-top: 2px;
+  border-radius: 2px;
+  border: 3px solid #ffa500;
+}
+
+.btn2 a:hover{
+  text-decoration: none;
+  background-color: #f9e697;
+  color: #000000;
+}
+
+.btn3 a{
+  background-color: none;
+  color: #000000;
+  font-size: 18px;
+  font-family: 'Kiwi Maru', serif;
+  width: 50px;
+  display: inline;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
+  //border: 3px solid #ffa500;
+}
+
+.btn3 a:hover{
+  text-decoration: none;
+  background-color: none;
+  color: #ffa500;
+}
+
 #index footer{
   width: 960px;
   margin: 150px auto 0 auto;
@@ -160,6 +200,14 @@ index h1{
   padding: 35px 0;
 }
 
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
 .main-center{
   width: 940px;
   margin: 0 auto;
@@ -170,10 +218,28 @@ h1{
   font-size: 24px;
 }
 
-.icon::before{
+h2{
+  font-family: 'Kiwi Maru', serif;
+  font-size: 22px;
+}
+
+.icon:before{
   content: "";
   padding-right: 10px;
   border-left: 7px solid #e4ad6d;
+}
+
+#about .jiman-txt{
+  width: 540px;
+  float: left;
+}
+
+#about .jiman-txt span{
+  font-weight: bold;
+}
+
+#about .jiman-image{
+  float: right;
 }
 
 .clearfix:after{
