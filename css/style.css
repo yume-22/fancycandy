@@ -188,6 +188,27 @@ top h1{
   color: #ffa500;
 }
 
+.btn4 a{
+  float: right;
+  background-color: #ffa500;
+  color: #000000;
+  font-size: 16px;
+  font-family: 'Kiwi Maru', serif;
+  width: 170px;
+  display: block;
+  text-align: center;
+  line-height: 10px;
+  margin-top: 2px;
+  border-radius: 2px;
+  border: 3px solid #ffa500;
+}
+
+.btn4 a:hover{
+  text-decoration: none;
+  background-color: #f9e697;
+  color: #000000;
+}
+
 #top footer{
   width: 960px;
   margin: 150px auto 0 auto;
@@ -290,6 +311,36 @@ section{
   background-position: center top;
   background-attachment: fixed;
   background-size: 100% auto;
+}
+
+#voice{
+  background-image: url(../images/sub.png);
+  background-repeat:no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  background-size: 100% auto;
+}
+
+#voice .ame-txt{
+  width: 640px;
+}
+
+#voice .ame-txt span{
+  font-weight: bold;
+}
+
+#voice .ame-image{
+  float: left;
+}
+
+#voice .ame-txt h2{
+  padding: 0 0 0 200px;
+}
+
+#voice .ame-txt li{
+  list-style: none;
+  padding: 20px;
+  margin: 8px;
 }
 
 .main{
