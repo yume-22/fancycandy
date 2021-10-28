@@ -103,15 +103,15 @@ footer {
   text-align: center;
   color: #ffffff;
   padding: 20px 0;
-  background-color: #767671;
+  background-color: #ffffff;
 }
 
 footer small {
   font-size: 12px;
 }
 
-top h1{
-  font-size: 100px;
+#top h1{
+  font-size: 30px;
   line-height: 1;
   color: #000000;
   font-family: 'Kiwi Maru', serif;
@@ -222,6 +222,7 @@ top h1{
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #ffffff;
 }
 
 #about{
@@ -230,6 +231,7 @@ top h1{
   background-position: center top;
   background-attachment: fixed;
   background-size: 100% auto;
+  background-color: #ffffff;
 }
 
 #wrap{
@@ -248,8 +250,7 @@ top h1{
 }
 
 .main-center{
-  width: 940px;
-  margin: 0 auto;
+  width: 640px;
 }
 
 h1{
@@ -303,6 +304,7 @@ section{
   background-position: center top;
   background-attachment: fixed;
   background-size: 100% auto;
+  background-color: #ffffff;
 }
 
 #event{
@@ -311,6 +313,7 @@ section{
   background-position: center top;
   background-attachment: fixed;
   background-size: 100% auto;
+  background-color: #ffffff;
 }
 
 #voice{
@@ -319,6 +322,7 @@ section{
   background-position: center top;
   background-attachment: fixed;
   background-size: 100% auto;
+  background-color: #ffffff;
 }
 
 #voice .ame-txt{
@@ -379,6 +383,7 @@ a img:hover{
   background-position: center top;
   background-attachment: fixed;
   background-size: 100% auto;
+  background-color: #ffffff;
 }
 
 #classic .classic-list li{
