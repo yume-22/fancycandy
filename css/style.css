@@ -15,8 +15,8 @@ p,h3,h4,h5,h6 {
 }
 
 h1,h2{
-  margin-top: 20px;
-  padding: 30px 0 0 0;
+  margin-top: 30px;
+  padding: 80px 0 0 0;
   font-family: 'Kiwi Maru', serif;
 }
 
@@ -100,10 +100,12 @@ nav {
 }
 
 footer {
+  font-family: 'Kiwi Maru', serif;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   padding: 20px 0;
-  background-color: #ffffff;
+  margin-top: 60px;
+  background-color: #bdbdbd;
 }
 
 footer small {
@@ -137,7 +139,7 @@ footer small {
   display: block;
   text-align: center;
   line-height: 50px;
-  margin-top: 50px;
+  margin-top: 20px;
   border-radius: 5px;
   border: 3px solid #ffa500;
 }
@@ -354,10 +356,10 @@ section{
 }
 
 .sidebar{
-  width: 200px;
-  margin: 0 10px 0 30px;
+  width: 180px;
+  margin: 0 10px 0 20px;
   float: right;
-  font-family: 'Bitter', serif;
+  font-family: 'Kiwi Maru', serif;
 }
 
 a img:hover{
@@ -365,11 +367,12 @@ a img:hover{
 }
 
 .sidebar h2{
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
 .sidebar ul{
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 20px;
 }
 
@@ -396,8 +399,8 @@ a img:hover{
   margin-right: 0;
 }
 
-@media screen and (max-width:600px){
-  /* 画面サイズが600px以下の場合に適用 */
+@media screen and (max-width:700px){
+  /* 画面サイズが700px以下の場合に適用 */
 
   body{
     font-size: 3.5vw;
@@ -465,13 +468,17 @@ a img:hover{
   header {
    top: 0;
    height: 10vh;
+ }
 
   .logo {
     margin: 0 15px;
     justify-content: center;
+  }
+
   img {
     height: 5vh;
   }
+
   nav {
     position: fixed;
     top: 10vh;
@@ -482,20 +489,26 @@ a img:hover{
     opacity: 0;
     transition: 0.5s;
     background-color: rgba(0, 0, 0, 0.5);
+  }
+
   ul {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     flex-direction: column;
     align-items: flex-start;
+  }
+
   li {
     margin: 20px;
+  }
+
   a {
     font-size: 20px;
     color: white;
-}}}}}}}
+  }}
 
-@media (min-width: 761px){
+@media (min-width: 800px){
   .btn-trigger {
         display: none;
     }
